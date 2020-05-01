@@ -79,6 +79,8 @@ def matrix_update(matrix, row, column, new_value)
   
   # matrix = [row][column] 
   # matrix[2] = "new_value"
+  
+  matrix[row][column] = new_value
 
 # matrix << new_value[row][column][2]
 
