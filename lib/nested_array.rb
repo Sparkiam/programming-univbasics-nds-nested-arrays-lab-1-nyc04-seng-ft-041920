@@ -78,9 +78,9 @@ def matrix_update(matrix, row, column, new_value)
   # Return the updated matrix
   
   matrix = [row][column] 
-  new_value[2]
-  
-  # matrix << new_value[row][column][2]
+  matrix[2] = [new_value]
+
+# matrix << new_value[row][column][2]
 
   matrix
 end
